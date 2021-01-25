@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skydu.android.offlinenotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OfflineNotes">
+        <activity android:name=".pages.notes.edit.NotesEditActivity"></activity>
+        <activity android:name=".pages.notes.create.NotesCreateActivity"></activity>
+        <activity android:name=".pages.notes.detail.NotesDetailActivity" />
+        <activity android:name=".pages.folder.edit.FolderEditActivity" />
+        <activity android:name=".pages.folder.detail.FolderDetailActivity" />
+        <activity android:name=".pages.folder.create.FolderCreateActivity" />
+        <activity android:name=".pages.folder.FolderListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

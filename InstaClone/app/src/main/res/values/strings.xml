@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">InstaClone</string>
+
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+
+    <!--login-->
+    <string name="username_field_hint">Enter your Username</string>
+    <string name="password_field_hint">Enter your password</string>
+    <string name="username_field_empty">Username can\'t be empty</string>
+    <string name="password_field_empty">Password can\'t be empty</string>
+    <string name="login_button_text">Login</string>
+    <string name="logout">Logging out...</string>
+
+    <!--menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_add_photos">Add Photos</string>
+    <string name="menu_profile">Profile</string>
+
+
+
+    <!--posts-->
+    <string name="post_add_comment">Add a comment...</string>
+    <string name="post_like_label">%1d Likes</string>
+    <string name="post_add_comment_hint">Add comment</string>
+    <string name="post_add_comment_button">Post</string>
+
+
+    <string name="like_loading">Liking Post</string>
+    <string name="unlike_loading">Unliking Post</string>
+
+
+    <string name="submit_comment">Submitting Comment</string>
+
+    <!--photo-->
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+</resources>
